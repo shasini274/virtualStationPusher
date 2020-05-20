@@ -1,0 +1,28 @@
+{
+   "extract_from": {
+    "MYSQL_HOST": "104.198.0.87",
+    "MYSQL_USER": "root",
+    "MYSQL_PASSWORD": "cfcwm07",
+    "MYSQL_DB": "curw_iot"
+  },
+
+  "water_level_stations": [
+    {
+      "stationId": "curw_wl_test",
+      "name": "Leecom WL Guage",
+      "station_meta": ["curw_wl_test", "Leecom WL Guage", 6.879243, 79.929304, 0, "Leecom water level guage, testing station"],
+      "source": "WeatherStation",
+      "type": "Observed",
+      "variables": ["Waterlevel"],
+      "units": ["m"],
+      "unit_type": ["Instantaneous"],
+      "max_values": ["30"],
+      "min_values": ["0"],
+      "description": "Leecom water level guage, testing station",
+      "run_name": "Leecom",
+      "mean_sea_level": 2.981,
+      "min_wl": -1.000,
+      "max_wl": 3.000
+    }
+  ]
+}
